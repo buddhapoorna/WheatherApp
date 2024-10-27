@@ -36,7 +36,7 @@ form.addEventListener("submit", (event) => {
     method: 'GET',
     headers: {
       'x-rapidapi-key': 'process.env.RAPIDAPI_KEY', // here add your x-rapidapi-key from rapidapi website login there and search for air quality cheaker 
-      'x-rapidapi-host': 'air-quality.p.rapidapi.com'
+      'x-rapidapi-host': 'air-quality.p.rapidapi.com' // Specify the host for the air quality API from RapidAPI
     }
   };
 
